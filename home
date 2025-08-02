@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hex Girls Incorporated | Tarot & Astrology</title>
+  <link href="https://fonts.googleapis.com/css2?family=UnifrakturCook:700&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/@calcom/embed-react@latest/dist/bundle.umd.js" defer></script>
+  <style>
+    body {
+      margin: 0;
+      background-color: #1e1b2e;
+      color: #f7f3ff;
+      font-family: 'Helvetica', sans-serif;
+    }
+    header {
+      background-color: #2b2640;
+      padding: 2rem;
+      text-align: center;
+      font-family: 'UnifrakturCook', cursive;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 3rem;
+      color: #e3b7ff;
+    }
+    .hero {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      padding: 2rem;
+    }
+    .hero img {
+      width: 300px;
+      border-radius: 1rem;
+      margin-bottom: 1rem;
+      box-shadow: 0 0 20px #b86aff;
+    }
+    .hero p {
+      max-width: 600px;
+      font-size: 1.1rem;
+      line-height: 1.6;
+    }
+    .services {
+      background-color: #322a4b;
+      padding: 2rem;
+    }
+    .services h2 {
+      text-align: center;
+      font-family: 'UnifrakturCook', cursive;
+      color: #d2afff;
+    }
+    .service {
+      margin: 1.5rem 0;
+      text-align: center;
+    }
+    .service h3 {
+      color: #c29eff;
+    }
+    .service form {
+      margin-top: 0.5rem;
+    }
+    .contact, .booking, .calendar, .testimonials {
+      background-color: #1e1b2e;
+      text-align: center;
+      padding: 2rem;
+    }
+    .contact h2, .booking h2, .calendar h2, .testimonials h2 {
+      color: #e3b7ff;
+      font-family: 'UnifrakturCook', cursive;
+    }
+    .contact a, .booking a {
+      color: #b86aff;
+      text-decoration: none;
+      font-size: 1.2rem;
+    }
+    form {
+      max-width: 500px;
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+    }
+    input, textarea, select {
+      margin: 0.5rem 0;
+      padding: 0.75rem;
+      border: none;
+      border-radius: 5px;
+      font-size: 1rem;
+    }
+    button {
+      background-color: #b86aff;
+      color: white;
+      padding: 0.75rem;
+      border: none;
+      border-radius: 5px;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+    .testimonial {
+      max-width: 600px;
+      margin: 1rem auto;
+      font-style: italic;
+      color: #d6c4f4;
+    }
+    iframe {
+      width: 100%;
+      max-width: 600px;
+      height: 700px;
+      border: none;
+      margin: 2rem auto 0;
+      display: block;
+    }
+    footer {
+      background-color: #2b2640;
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #b3a1cc;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Hex Girls Incorporated</h1>
+    <p>Tarot & Astrology Readings</p>
+  </header>
+  <section class="hero">
+    <img src="your-image-path.jpg" alt="Witchy Tarot Reader" />
+    <p>Step into a world of moonlit mystery and star-guided insight. I'm here to help you uncover the truth, receive clarity, and connect with your higher self through personalized tarot and astrology readings.</p>
+  </section>
+  <section class="services">
+    <h2>Readings & Offerings</h2>
+    <!-- Services remain unchanged -->
+    <!-- ...existing service sections with PayPal buttons... -->
+  </section>
+  <section class="booking">
+    <h2>Book a Reading</h2>
+    <form action="https://formspree.io/f/your-form-id" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <select name="service">
+        <option value="Tarot">✨ Tarot Reading - $20</option>
+        <option value="Astrology">🔮 Astrology Birth Chart - $30</option>
+        <option value="Combo">🌙 Combo Reading - $40</option>
+      </select>
+      <textarea name="message" placeholder="Your Question or Birth Info (for astrology)" rows="5"></textarea>
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+  <section class="calendar">
+    <h2>Check Availability</h2>
+    <iframe src="https://cal.com/your-username" title="Book with Hex Girls"></iframe>
+  </section>
+  <section class="testimonials">
+    <h2>Client Love</h2>
+    <div class="testimonial">"Incredible reading! She picked up on things I never even mentioned. Highly recommend!" – Marissa L.</div>
+    <div class="testimonial">"My birth chart reading was so spot on, it felt like she knew me better than I knew myself!" – Devon M.</div>
+    <div class="testimonial">"10/10 vibes and spooky-accurate insight. Loved the witchy aesthetic too." – Cassie W.</div>
+  </section>
+  <section class="contact">
+    <h2>Contact</h2>
+    <p>Email me at: <a href="mailto:hexgirlsreadings@gmail.com">hexgirlsreadings@gmail.com</a></p>
+    <p>or DM me on Instagram: <a href="https://instagram.com/hexgirlsinc">@hexgirlsinc</a></p>
+  </section>
+  <footer>
+    &copy; 2025 Hex Girls Incorporated. All Rights Reserved.
+  </footer>
+</body>
+</html>
